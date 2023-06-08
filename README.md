@@ -30,11 +30,13 @@
 Привожу выкладки из *Inference.ipynb* 
 
 
+
+
 ## 3 part. Airflow and postgres
 
 Для начала нужно создать подключение к нашему хосту для мак-юзеров это делается следующим образом варианты для хоста могут быть _(localhost, postgres)_
 
-![Connection](connection.png)
+![Connection](output_pics/Out_haze.png)
 
 После создания подключения можно официально запускать основной даг в airflow - pre_parser.py, который имеет следующую струтуру 
 
