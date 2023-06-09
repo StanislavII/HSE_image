@@ -5,11 +5,11 @@
 
 ### Введение. Состав проекта.
 
-* _В папке images_nohaze находятся фотографии без естественного тумана на которые аугментировалась дымка для проверки качества алгоритма_
-* _В папке test_images_hazed находятся фотографии с туманом_
-* _Файл DCP.py реализует в себе оболочку алгоритма Dark Channel Prior_
-* _Файл Guided_filter.py реализует в себе управляемый фильтер (Guided Filter + Box Filter) импортируемый в DCP.py_
-* _Сам проект визуально реализован в отчете Inference.ipynb_
+* _В папке [images_nohaze](images_nohaze) находятся фотографии без естественного тумана на которые аугментировалась дымка для проверки качества алгоритма_
+* _В папке [test_images_hazed](test_images_hazed) находятся фотографии с туманом_
+* _Файл [DCP.py](DCP.py) реализует в себе оболочку алгоритма Dark Channel Prior_
+* _Файл [Guided_filter.py](Guided_filter.py) реализует в себе управляемый фильтер (Guided Filter + Box Filter) импортируемый в DCP.py_
+* _Сам проект визуально реализован в отчете [Inference.ipynb](Inference.ipynb)_
 
 ### Imports. Requirements
 
